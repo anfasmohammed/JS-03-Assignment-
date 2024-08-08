@@ -18,23 +18,35 @@ Ans. 4
 4. Create a Fahrenheit to Celsius converter
 
 Ans.
+```js
     let fahrenheit=prompt("Enter Fahrenheit")
+
     celsius=((Fahrenheit-32)*5)/9
+
     console.log(celsius)
+```
 
 5. Create a discount percentage calculator
 
 Ans.
+```js
     let mRP =prompt("Enter MRP ")
-    let sellingPrice= prompt("Enter Selling Price")
-    discountPercentage=((mRP-sellingPrice)*100)/mRP
-    console.log(discountPercentage)
 
+    let sellingPrice= prompt("Enter Selling Price")
+
+    discountPercentage=((mRP-sellingPrice)*100)/mRP
+
+    console.log(discountPercentage)
+```
 6. Create a BMI Calculator 
 
 Ans.
+```js
     let weight=prompt("Enter Weight in kg")
+
     let height=prompt("Enter Height in meter")
+
     BMI=weight/(height*height)
-    console.log(BMI)
     
+    console.log(BMI)
+```   
